@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build-lib": "cd golib && go mod tidy && go build -o golib.so --buildmode=c-shared main.go"
+    "buildLib": "bun run build-lib.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

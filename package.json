@@ -6,7 +6,7 @@
     "buildLib": "bun run build-lib.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.1.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
